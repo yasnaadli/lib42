@@ -6,17 +6,20 @@
 /*   By: yamohamm <yasnaadli21@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 16:11:05 by yamohamm          #+#    #+#             */
-/*   Updated: 2024/11/11 13:02:57 by yamohamm         ###   ########.fr       */
+/*   Updated: 2024/11/13 18:36:10 by yamohamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-void ft_putstr(char *s)
+#include <stdlib.h>
+void		ft_putstr(char const *s)
 {
-int i;
-if(s != NULL)
-{
+	size_t	i;
 
-}
-
+	i = 0;
+	while (s[i])
+	{
+		ft_putchar(s[i]);
+		i++;
+	}
 }

@@ -6,12 +6,15 @@
 /*   By: yamohamm <yasnaadli21@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/11 14:35:22 by yamohamm          #+#    #+#             */
-/*   Updated: 2024/11/11 14:40:12 by yamohamm         ###   ########.fr       */
+/*   Updated: 2024/11/14 22:42:07 by yamohamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-void ft_bzero(void *s , size_t n)
+
+void ft_bzero(void *wtf , size_t n)
 {
-	ft_memset(s, 0, n);
+	ft_memset(wtf, 0, n);
 }
+
+#include <stdlib.h>

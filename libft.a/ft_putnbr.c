@@ -6,14 +6,13 @@
 /*   By: yamohamm <yasnaadli21@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/07 13:16:21 by yamohamm          #+#    #+#             */
-/*   Updated: 2024/11/12 16:09:23 by yamohamm         ###   ########.fr       */
+/*   Updated: 2024/11/14 20:11:21 by yamohamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 // #include <unistd.h>
- void ft_putnbr(int n)
+void	ft_putnbr(int n)
 {
-  ft_putnbr_fd(n, 1);
+	ft_putnbr_fd(n, 1);
 }
- 

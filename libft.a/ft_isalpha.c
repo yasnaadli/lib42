@@ -1,18 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar.c                                       :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yamohamm <yasnaadli21@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/11/07 13:09:53 by yamohamm          #+#    #+#             */
-/*   Updated: 2024/11/14 20:17:19 by yamohamm         ###   ########.fr       */
+/*   Created: 2024/11/14 21:04:29 by yamohamm          #+#    #+#             */
+/*   Updated: 2024/11/14 22:01:29 by yamohamm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putchar(char c)
+int	ft_isalpha(int c)
 {
-	ft_putchar_fd(c, 1);
+	if ((c <= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }
